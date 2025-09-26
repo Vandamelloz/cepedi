@@ -1,0 +1,7 @@
+t=(1, 2, 3, 4, 5)
+lista=list(t)
+print(lista)
+lista.insert(0, 40)
+print(lista)
+tupla=tuple(lista)
+print(tupla)
