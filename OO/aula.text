@@ -1,0 +1,27 @@
+PARADIGMA
+PROGRAMAÇÃO FUNCIONAL
+PROGRAMAÇÃO LÓGICA
+PROGRAMAÇÃO ORIENTADA A EVENTOS 
+POO 
+class Pessoa:
+#variáveis de instância da classe 
+nome= ""
+idade=0
+idade
+#Métodos
+def andar(self);
+self.nome= "Claudio" #variável global 
+#self aqui será como o get de java
+ peso=70.4
+def setIdade(self, nome):
+def calcularImc(self):
+ altura=1.78
+ return self.peso/altura*altura
+quando utilizar o self, se a variavel não existir, ela será criada em qualquer método 
+def__init__():
+concentrar a criação das variáveis aqui
+método construtor 
+
+ 
+
+
