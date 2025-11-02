@@ -21,3 +21,4 @@ linhas=texto.split('/n')
 
 for palavra in linhas:
  print(palavra)
+ 
