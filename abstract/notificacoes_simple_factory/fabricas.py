@@ -8,11 +8,11 @@ class NotificacaoUrgente(NotificacaoFactory):
         
         return NotificarEmail()
  
-    def criarSms(self)-> Notificacao:
+    def criarSms(self) -> Notificacao:
         return NotificarSMS()
   
     def criarWhatsapp(self) -> Notificacao:
-        print("Urgente")
+        print("Ordem de prioridade: Urgente")
         return NotificarWhatsapp()
 
 class NotificacaoNormal(NotificacaoFactory):
@@ -21,9 +21,21 @@ class NotificacaoNormal(NotificacaoFactory):
         
         return NotificarEmail()
  
-    def criarSms(self)-> Notificacao:
+    def criarSms(self) -> Notificacao:
+        print("Ordem de prioridade: Normal")
         return NotificarSMS()
   
     def criarWhatsapp(self) -> Notificacao:
-        print("Normal")
+        return NotificarWhatsapp()
+
+class NotificacaoTrabalho(NotificacaoFactory):
+
+    def criarEmail(self) -> Notificacao:
+        print("Ordem de prioridade: Trabalho")
+        return NotificarEmail()
+ 
+    def criarSms(self) -> Notificacao:
+        return NotificarSMS()
+  
+    def criarWhatsapp(self) -> Notificacao:
         return NotificarWhatsapp()
