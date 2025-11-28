@@ -1,0 +1,8 @@
+[2025-11-28 19:56:00][INFO]: Logger inicializado com sucesso.
+[2025-11-28 19:56:00][INFO]: Módulo A: Inicializando o aplicativo.
+[2025-11-28 19:56:00][WARNING]: Módulo B: Atenção, recurso depreciado detectado.
+[2025-11-28 19:56:00][WARNING]: Tentativa de login falhou para o usuário 'user_teste'.
+[2025-11-28 19:56:00][INFO]: Usuário 'admin' logado com sucesso.
+[2025-11-28 19:56:00][INFO]: Usuário atual consultado: 'admin'.
+[2025-11-28 19:56:00][INFO]: Usuário 'admin' deslogado.
+[2025-11-28 19:56:00][ERROR]: Processo principal encerrado com erros críticos.
